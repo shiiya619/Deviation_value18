@@ -5,8 +5,7 @@ const products = [
     price: 2990,
     images: [
       "images/tops.JPG", // 1枚目の画像
-      "images/tshirt-2.jpg", // 2枚目の画像
-      "images/tshirt-3.jpg"  // 3枚目の画像
+      "images/tops1.JPG", // 2枚目の画像  
     ]
   },
   {
@@ -15,7 +14,7 @@ const products = [
     price: 5980,
     images: [
       "images/parka-black.JPG",
-      "images/hoodie-detail-1.jpg" // パーカーの別アングル画像など
+      "images/paeka-black2.JPG" // パーカーの別アングル画像など
     ]
   },
   {
@@ -24,7 +23,8 @@ const products = [
     price: 5980,
     images: [
       "images/parka-gray.JPG",
-      "images/parka-gray2.JPG"
+      "images/parka-gray2.JPG",
+      "images/parka-gray3.JPG"
     ]
   },
   {
@@ -32,9 +32,8 @@ const products = [
     name: "バンダナ",
     price: 2000,
     images: [
-      "images/bandana.jpg",
-      "images/shoes-detail-1.jpg",
-      "images/shoes-detail-2.jpg"
+      "images/bandana.JPG",
+      "images/bandana2.JPG"
     ]
   }
   // 他の商品もここに追加
