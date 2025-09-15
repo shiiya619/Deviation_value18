@@ -4,11 +4,44 @@ body {
   background-color: #f7f7f7;
 }
 
+/* --- ヘッダー関連のスタイル --- */
 header {
+  position: relative; /* 子要素を配置する際の基準点にする */
+  text-align: center; /*中のテキスト(h1)を中央揃えに */
+  padding: 1rem 2rem;
   background-color: black;
   color: white;
-  text-align: center;
-  padding: 1rem;
+}
+
+/* ヘッダーのサイト名(h1)のリンクスタイル */
+header h1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* アイコンを囲むコンテナ */
+.header-icons {
+  position: absolute; /* headerを基準に絶対位置で配置 */
+  right: 2rem; /* 右端から2remの位置 */
+  top: 50%; /* 上から50%の位置 */
+  transform: translateY(-50%); /* さらに自身の高さの50%上に移動して完全な中央揃えに */
+  
+  /* 以下は変更なし */
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* アイコンのスタイル */
+.header-icons a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+/* アイコンのホバーエフェクト */
+.header-icons a:hover {
+  color: #ccc;
 }
 
 .product-grid {
